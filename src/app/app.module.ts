@@ -5,9 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 import { HeroesComponent } from './heroes/heroes.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 @NgModule({
-  declarations: [AppComponent, SafeHtmlPipe, HeroesComponent],
+  declarations: [AppComponent, SafeHtmlPipe, HeroesComponent, HeroDetailComponent],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
